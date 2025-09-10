@@ -1,0 +1,47 @@
+# Go: binaries and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binaries
+*.test
+
+# Coverage and test outputs
+*.out
+*.coverprofile
+coverage.*
+coverage/
+
+# Build artifacts
+bin/
+build/
+dist/
+out/
+
+# Go workspace files
+go.work
+go.work.sum
+
+# Profiling and tracing
+*.pprof
+*.prof
+*.trace
+
+# Logs
+*.log
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+
+# Dependency directories (uncomment if you don't commit vendored code)
+# vendor/
+
+
